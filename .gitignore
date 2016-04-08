@@ -1,2 +1,4 @@
 components
 build
+bundle.js
+node_modules

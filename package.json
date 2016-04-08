@@ -1,0 +1,21 @@
+{
+  "name": "autofill-form",
+  "version": "0.0.1",
+  "description": "Automatically fill a form's fields with querystring values.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/segmentio/autofill-form.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "component-querystring": "^2.0.0",
+    "component-value": "^1.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "domify": "^1.4.0",
+    "mochify": "^2.17.0",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}

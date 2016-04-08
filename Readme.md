@@ -5,7 +5,7 @@
 
 ## Installation
 
-    $ component install segmentio/autofill-form
+    $ npm install autofill-form
 
 ## Example
 
@@ -16,16 +16,16 @@ var form = document.querySelector('form');
 window.location.search;
 // "/signup?email=test@example.com"
 
-autofill(form); 
+autofill(form);
 // now the `input[name=email]` field has a value of "test@example.com"
 ```
 
 ## API
 
 ### submit(form)
-  
+
   Automatically fill a `form`'s fields with querystring values.
-  
+
 ## License
 
   MIT
