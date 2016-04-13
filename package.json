@@ -1,6 +1,6 @@
 {
   "name": "autofill-form",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically fill a form's fields with querystring values.",
   "main": "index.js",
   "repository": {
