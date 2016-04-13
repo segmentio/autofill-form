@@ -13,3 +13,9 @@ test:
   override:
     - make bundle.js
     - make test
+
+deployment:
+  publish:
+    tag: /[0-9]+(\.[0-9]+)*(-.+)?/
+    commands:
+      - npm publish
